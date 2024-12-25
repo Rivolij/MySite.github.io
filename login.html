@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="blur"></div>
+    <header>
+        <ul>
+            <li class="header"><a href="./galery.html">Галерея</a></li>
+            <li class="header"><a href="./search.html">Поиск</a></li>
+            <li class="header"><a href="./index.html"><img src="./img/logo.png" alt="" class="logo"></a></li>
+            <li class="header"><a href="./test.html">Тест</a></li>
+            <li class="header"><a href="./pro.html" id="header_login">Профиль</a></li>
+
+        </ul>
+
+    </header>
+
+    <main>
+
+        <form name="login_form" novalidate class="login-form">
+    
+            <input type="text" name="input_login" placeholder="логин" pattern="[А-Я][а-я]+" required>
+            <div id="login_error"> </div>
+
+            <input type="date" name="input_date" min="1924-12-01" max="2024-12-31" required>
+            <div id="date_error"> </div>
+
+            <label><input type="radio" name="input_gender" class="input-gender" value="жен" checked>женский</label>
+            <label><input type="radio" name="input_gender" class="input-gender" value="муж">мужской</label>
+
+
+            <button id="login_button" type="submit">Войти</button>
+        </form>
+    
+    </main>
+
+
+    <footer>
+        <img src="./img/facebook.png" alt="">
+        <img src="./img/instagram.png" alt="">
+        <img src="./img/telegram.png" alt="">
+        <img src="./img/youtube.png" alt="">
+    
+    </footer>
+
+    <script src="./js/input.js"></script>
+</body>
+
+</html>

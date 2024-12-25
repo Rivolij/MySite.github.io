@@ -1,0 +1,57 @@
+@import "./main.css";
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    font-size: 3vw;
+        align-items: center;
+    justify-content: center;
+}
+
+.up-cont{
+    margin-top: -5vw;
+    height: 15vw;
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+    display: flex;
+    flex-direction: row;
+}
+.up-cont h1{
+    margin-left: 3vw;
+}
+
+
+
+
+.down-cont{
+    color: white;
+    font-size: 7vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+
+    height: 15vw;
+
+}
+
+.down-cont h1 {
+    margin-left: 3vw;
+}
+
+#btn_clear{
+    color: rgb(5, 5, 5);
+    background-color: white;
+
+    width: 30vw;
+    height: 5vw;
+    border-radius: 10vw;
+}
+
+#btn_clear:hover {
+    color: white;
+    background-color: rgb(83, 83, 83);
+}

@@ -1,0 +1,104 @@
+@import "./main.css";
+
+:root {
+    --ex: 0
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+.character{
+    margin-top: -5vw;
+    margin-left: 5vw;
+
+    display: flex;
+
+    flex-direction: row;width: 10000vw;
+}
+
+.left{
+    z-index: 1;
+    position: absolute;
+    top: 7vw;
+    left: 0vw;
+
+    background-color: white;
+    backdrop-filter: blur(5vw);
+    
+    height: 40vw;
+    width: 5vw;
+}
+
+.right {
+    z-index: 0;
+    position: absolute;
+    top: 7vw;
+    left: 45vw;
+
+    background-color: white;
+    backdrop-filter: blur(5vw);
+    height: 40vw;
+    width: 100vw;
+}
+
+
+.text{
+    z-index: 1;
+    position: absolute;
+    top: 7vw;
+    left: 55vw;
+    
+    color: rgb(50, 50, 50);
+
+    height: 40vw;
+    width: 35vw;
+}
+#text{
+    margin-top: 5vw;
+}
+
+
+.btn-forward{
+    position: absolute;
+    top: 33vw;
+    left: 34vw;
+    font-size: 5vw;
+}
+
+.btn-backward {
+    position: absolute;
+    top: 33vw;
+    left: 0vw;
+    font-size: 5vw;
+}
+
+#count{
+    position: absolute;
+    top: 33vw;
+    left: 15vw;
+    font-size: 5vw;
+}
+
+
+.def img {
+    height: 40vw;
+    width: 40vw;
+}
+
+.def{
+    transition: 1s;
+    transform: translateX(var(--ex));
+}
+
+.def p {
+    font-size: 0vw;
+}
+
+
+
+footer{
+    z-index: 1;
+    margin-top: 0vw;
+}
