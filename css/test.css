@@ -4,7 +4,7 @@ body {
     overflow-x: hidden;
 }
 main{
-    background: linear-gradient(to bottom right, rgb(255, 210, 61), rgb(92, 69, 7)) no-repeat;
+    background: linear-gradient(to bottom right, rgb(95, 91, 91), rgb(16, 16, 14)) no-repeat;
     
     padding: 3vw;
     padding-top: 10vw;
