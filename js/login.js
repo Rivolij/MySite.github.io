@@ -12,6 +12,16 @@ if(!login || !date){
 }else{
     document.getElementById('header_login').innerText = login
     
+    document.getElementById("btn_header_exit").addEventListener('click', () =>{
+        sessionStorage.removeItem("login"); //localStorage || sessionStorage
+        sessionStorage.removeItem("date"); //localStorage || sessionStorage
+        sessionStorage.removeItem("gender"); //localStorage || sessionStorage
+        sessionStorage.removeItem("result"); //localStorage || sessionStorage
+
+
+        window.location.href = "./login.html"
+    })
+
 }
 
 
