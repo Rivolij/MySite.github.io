@@ -26,7 +26,7 @@ body {
 .blur{
     z-index: -1;
     position: absolute;
-    backdrop-filter: blur(7vw);
+    backdrop-filter: blur(1vw);
 
     height: 100%;
     width: 100%;
