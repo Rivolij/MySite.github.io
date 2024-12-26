@@ -1,2 +1,99 @@
 @import "./main.css";
 
+body {
+    overflow-x: hidden;
+}
+main{
+    background: linear-gradient(to bottom right, rgb(255, 210, 61), rgb(92, 69, 7)) no-repeat;
+    
+    padding: 3vw;
+    padding-top: 10vw;
+    padding-left: 33vw;
+    color: white;
+    text-align: justify;
+}
+.vopros{
+    margin-bottom: 3vw;
+    display: flex;
+    flex-direction: column;
+}
+.vopros h2{
+    margin-bottom: 1vw;
+}
+.radio{
+    margin-left: 10vw;
+    margin-right: 3vw;
+    appearance: none;
+    border: 0.7vw solid rgb(255, 255, 255);
+    border-radius: 10vw;
+
+}
+
+.radio:checked {
+    border: 0.7vw solid rgb(255, 234, 0);
+}
+
+.text{
+    margin-left: 5vw;
+    background-color: white;
+    color: rgb(255, 128, 0);
+
+    height: 3vw;
+}
+
+#btn_otp{
+    margin-left: 11vw;
+    background-color: rgb(255, 128, 0);
+    padding: 1vw;
+    color: white;
+    width: 12vw;
+}
+
+#btn_otp:hover {
+    background-color: white;
+    color:rgb(255, 128, 0);
+}
+
+#reset{
+    margin-top: 1vw;
+    margin-left: 11vw;
+    background-color: rgb(102, 102, 102);
+    padding: 1vw;
+    color: white;
+    width: 12vw;
+}
+
+#reset:hover {
+
+    background-color: white;
+    color: rgb(102, 102, 102);
+}
+
+
+#result{
+    font-size: 4vw;
+    margin-top: 3vw;
+    margin-left: 5vw;
+    margin-bottom: 5vw;
+}
+
+.true{
+    width: 30vw;
+}
+
+.true2{
+    text-align: center;
+    opacity: 0;
+    color: #ffffff;
+    width: 20vw;
+}
+
+
+.otv{
+    margin-left: 7vw;
+}
+
+
+footer{
+    margin-top: -2vw;
+}
