@@ -31,11 +31,11 @@ test.addEventListener('submit', (event)=>{
     }
 
     for (i = 0; i < answer.length; i++) {
-        answer[i].style.backgroundColor = "rgb(231, 109, 1)";
+        answer[i].style.backgroundColor = "rgb(137, 137, 137)";
     }
 
     for (i = 0; i < answer2.length; i++) {
-        answer2[i].style.backgroundColor ="rgb(231, 109, 1)";
+        answer2[i].style.backgroundColor ="rgb(137, 137, 137)";
         answer2[i].style.opacity = 1;
     }
 
