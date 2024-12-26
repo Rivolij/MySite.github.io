@@ -24,7 +24,65 @@
     </header>
 
     <main>
-       
+        
+        <form name="test_form" novalidate class="test-form">
+            <div class="vopros">
+                <h2>1. В ? ПБЯ была уничтожена 2 Звезда Смерти?</h2>
+                <label><input type="radio" name="v1" class="radio" value="1">0 ПБЯ</label>
+                <label><input type="radio" name="v1" class="radio" value="2">2 ПБЯ</label>
+                <label><input type="radio" name="v1" class="radio" value="3">8 ДБЯ</label>
+                <label class="true"><input type="radio" name="v1" class="radio" value="0">4 ПБЯ</label> <!-- 0 = правильный ответ-->
+
+
+            </div>
+
+            <div class="vopros">
+                <h2>2. Начало и конец (ПБЯ) гранд-адмирала Трауна по реставрации Империи?</h2>
+                <label class="true"><input type="radio" name="v2" class="radio" value="0">9 ПБЯ</label><!-- 0 = правильный ответ-->
+                <label><input type="radio" name="v2" class="radio" value="1">5 ДБЯ</label>
+                <label><input type="radio" name="v2" class="radio" value="2">19 ПБЯ</label>
+                <label><input type="radio" name="v2" class="radio" value="3">11 ПБЯ</label>
+            
+            </div>
+
+            <div class="vopros">
+                <h2>3. Столица Галактической империи?</h2>
+                <label class="true"><input type="radio" name="v3" class="radio" value="0">Корусант</label><!-- 0 = правильный ответ-->
+                <label><input type="radio" name="v3" class="radio" value="1">Алсакан</label>
+                <label><input type="radio" name="v3" class="radio" value="2">Камино</label>
+                <label><input type="radio" name="v3" class="radio" value="3">Татуин</label>
+            
+            </div>
+
+            <div class="vopros">
+                <h2>4. В какой цвет была одета Преторианская Гвардия при Шиве Палпатине?</h2>
+                <label class="true"><input type="radio" name="v4" class="radio" value="0">Алый</label><!-- 0 = правильный ответ-->
+                <label><input type="radio" name="v4" class="radio" value="1">Серый</label>
+                <label><input type="radio" name="v4" class="radio" value="2">Синий</label>
+                <label><input type="radio" name="v4" class="radio" value="3">Красный</label>
+            
+            </div>
+
+            <div class="vopros">
+                <h2>5. Последующая легитимная династия после Империи Палпатинов?</h2>
+                <p><input type="text" name="v5" class="text" required pattern="[фФ]ел"></p>
+                <p class="true2 otv">Фел / фел</p><!-- = правильный ответ-->
+            
+            </div>
+
+            <div class="vopros">
+                <h2>6. Группа лиц, борящихся с действующим режимом?</h2>
+                <p><input type="text" name="v6" class="text" required pattern="[пП]овстанцы"></p>
+                <p class="true2 otv" >Повстанцы / повстанцы</p><!-- = правильный ответ-->
+
+            
+            </div>
+
+            <button type="submit" id="btn_otp">Отправить</button>
+        </form>
+        <button id="reset">Занаво</button>
+        <div id="result">Результат: 0</div>
+        
     </main>
 
 
