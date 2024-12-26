@@ -36,14 +36,14 @@ main{
 .text{
     margin-left: 5vw;
     background-color: white;
-    color: rgb(255, 128, 0);
+    color: rgb(70, 22, 22);
 
     height: 3vw;
 }
 
 #btn_otp{
     margin-left: 11vw;
-    background-color: rgb(255, 128, 0);
+    background-color: rgb(102, 102, 102);
     padding: 1vw;
     color: white;
     width: 12vw;
@@ -51,7 +51,7 @@ main{
 
 #btn_otp:hover {
     background-color: white;
-    color:rgb(255, 128, 0);
+    color: rgb(70, 22, 22);
 }
 
 #reset{
