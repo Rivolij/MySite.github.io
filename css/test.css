@@ -30,7 +30,7 @@ main{
 }
 
 .radio:checked {
-    border: 0.7vw solid rgb(255, 234, 0);
+    border: 0.7vw solid rgb(70, 22, 22);
 }
 
 .text{
